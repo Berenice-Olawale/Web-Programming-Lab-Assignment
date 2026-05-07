@@ -1,1 +1,8 @@
-<h2>Login result</h2><?php if(isset($_SESSION['login'])) { ?><p class="notice success">Login successful. Welcome, <?= htmlspecialchars($_SESSION['fn']) ?>!</p><p><a class="btn" href=".">Continue</a></p><?php } else { ?><p class="notice error"><?= htmlspecialchars($errormessage ?? 'Login failed.') ?></p><p><a class="btn" href="login">Try again</a></p><?php } ?>
+<h2>Login result</h2>
+<?php if(isset($_SESSION['login'])) { ?>
+    <p class="notice success">Login successful. Welcome, <?= htmlspecialchars($_SESSION['fn']) ?>!</p>
+    <p><a class="btn" href=".">Continue</a></p>
+<?php } else { ?>
+    <p class="notice error"><?= htmlspecialchars($errormessage ?? 'Login failed.') ?></p>
+    <p><a class="btn" href="login">Try again</a></p>
+<?php } ?>
