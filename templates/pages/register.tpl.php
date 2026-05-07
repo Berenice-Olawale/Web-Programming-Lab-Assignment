@@ -1,0 +1,1 @@
+<h2>Registration result</h2><p class="notice <?= empty($again) ? 'success' : 'error' ?>"><?= $message ?? '' ?></p><p><a class="btn" href="login">Go to login</a></p>
