@@ -3,7 +3,7 @@
         <h2>Affordable refurbished notebooks for students and companies</h2>
         <p>ReNew Ltd. sells company-refurbished notebooks in the capital of Nowhereland. Our database contains real notebook specifications, including manufacturer, type, display size, memory, hard disk, graphics controller, processor, operating system, stock pieces and price.</p>
         <p><strong>Project creators:</strong> Berenice Olawale and Meriem Ben Zouitine.</p>
-        <a class="btn" href="crud">Browse notebook stock</a> <a class="btn secondary" href="images">View gallery</a>
+        <a class="btn" href="crud">Browse notebook stock</a> <a class="btn secondary" href="gallery">View gallery</a>
     </div>
     <img src="./images/hero-notebook.jpg" alt="Refurbished notebook"></section>
     <section class="grid">
@@ -17,9 +17,11 @@
 </section>
 <section class="media-box">
     <div class="card">
-    <h3>Short local video</h3>
-    <video controls poster="./images/gallery-repair.jpg">
-        <source src="./videos/renew-demo.mp4" type="video/mp4">Your browser does not support video. Add a 5-second video as videos/renew-demo.mp4.</video>
+    <h3>Our Local Video</h3>
+        <video controls width="100%">
+        <source src="./video/notebook.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
     </div>
     <div class="card">
         <h3>YouTube Video</h3>
